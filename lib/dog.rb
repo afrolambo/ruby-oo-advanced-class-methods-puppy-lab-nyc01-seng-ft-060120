@@ -5,5 +5,8 @@ class Dog
     @name = name
     @@all << name
   end
-  @@all
+  
+  def all 
+    @@all 
+  end 
 end
